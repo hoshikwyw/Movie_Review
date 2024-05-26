@@ -1,9 +1,12 @@
 import React from 'react'
+import CustomNavbar from './components/CustomNavbar'
+import Path from './paths/Path'
 
 const App = () => {
   return (
     <div>
-      this project will be show movies and series rating and reviews and trailers .... 
+      <CustomNavbar />
+      <Path />
     </div>
   )
 }
