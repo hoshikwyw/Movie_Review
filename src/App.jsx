@@ -8,7 +8,9 @@ const App = () => {
       <div className=" overlayMainBg flex justify-center items-center">
         <div className=" subBg">
           <CustomNavbar />
-          <Path />
+          <div className=' w-full h-full'>
+            <Path />
+          </div>
         </div>
       </div>
     </div>
